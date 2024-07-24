@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Speach converter</title>
+</head>
+<body>
+    <header>
+        <div id="headr">
+            <h1>Text to speach</h1><hr>
+            <p>Change your text into voice</p>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <textarea name="textarea" id="text" required placeholder="Start writing" rows="15" cols="40" autofocus></textarea>
+            <button onclick="generateAudio()" id="generate-btn">Generate speach</button>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

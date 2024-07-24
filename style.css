@@ -1,0 +1,54 @@
+body{
+    background-image:url(main-bgf.jpg);background-attachment: fixed;background-size: cover;background-repeat: no-repeat;
+    height: 100vh;
+}
+#headr{
+    height: 8em;
+    width: 25em;
+    text-align: center;
+    margin: 20px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    font-family: "Abril Fatface", serif;
+    color: white;
+    letter-spacing: 1px;
+}
+hr{
+
+    border: 1px solid white;
+    height: 2px;
+    border-radius: 100px;
+}
+h1{
+    font-size: 35px;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: rgba(221, 0, 134,0.6);
+    border-radius: 10px;
+    height: 22em;
+    width: 25em;
+    display: flex;
+    flex-direction: column;
+}
+#text{
+    margin: 15px;
+    border-radius: 10px;
+    resize: none;
+    padding: 5px;
+    font-size: medium;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-size: 1.3em;
+}
+#generate-btn{
+    margin: 15px;
+    margin-top: 20px;
+    height:2.5em;
+    border-radius: 10px;
+    font-family: "Abril Fatface", serif;
+}
